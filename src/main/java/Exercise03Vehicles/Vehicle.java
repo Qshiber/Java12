@@ -5,7 +5,7 @@ public abstract class Vehicle {
     protected String name;
     protected FuelType fuelType;
     protected Integer numberOfPassengers = 0;
-    final protected Integer maxNumberOfPassengers;
+    protected final Integer maxNumberOfPassengers;
 
     public Vehicle(String name, FuelType fuelType, Integer maxNumberOfPassengers){
         this.name = name;
